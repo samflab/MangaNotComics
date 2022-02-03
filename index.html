@@ -40,6 +40,152 @@
       </div>
     </header>
 
+    <!--DRAWER-->
+    <!-- <div class="password-drawer" id="password-drawer">
+      <div class="account-header">
+        <span><h2>reset password</h2></span>
+        <span><i class="fas fa-times drawer-close-password fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="password-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <button class="login-btn">Reset Password</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link">Create an account</a>
+        </div>
+      </form>
+    </div> -->
+
+    <div class="login-drawer" id="login-drawer">
+      <div class="account-header">
+        <span><h2>Login</h2></span>
+        <span><i class="fas fa-times drawer-close-login fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Login</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link">Create an account</a>
+
+          <br />
+          <br />
+
+          Lost Password?
+          <a href="#password-drawer" class="forgot-password password-link">Reset your Password</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="account-drawer signup-drawer" id="signup-drawer">
+      <div class="account-header">
+        <span><h2>Signup</h2></span>
+        <span><i class="fas fa-times drawer-close-signup fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="firstname"
+            >Firstname <span class="asterick">*</span></label
+          >
+          <br />
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            class="firstname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="lastname">Lastname <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="lastname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Signup</button>
+
+        <div class="form-links">
+          Already have an account?
+          <a href="#login-drawer" class="login-link">Login here</a>
+        </div>
+      </form>
+    </div>
+
     <main class="hero-container">
       <div class="hero-content">
         <h1 class="hero-name">MangaNotComics</h1>
@@ -225,5 +371,7 @@
         <button class="add-to-cart">Add to Cart</button>
       </div>
     </main>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
