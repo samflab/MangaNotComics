@@ -137,7 +137,7 @@ label {
   font-family: "Roboto", sans-serif;
   margin-top: 1rem;
 }
-.signup-link, .login-link, .forgot-password {
+.signup-link, .login-link, .forgot-password, .signup-link-login {
   color: var(--font);
   font-weight: 600;
   font-family: "Roboto", sans-serif;
