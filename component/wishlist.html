@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/wishlist.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="index.html" class="header-href">
+          <img src="../images/logo.png" alt="" class="header-img" />
+        </a>
+      </div>
+
+      <div class="header-nav">
+        <nav>
+          <ul class="header-menu">
+            <li class="menu-item"><a href="">Home</a></li>
+            <li class="menu-item">
+              <a href="">Products</a>
+            </li>
+            <li class="menu-item">
+              <a href="">Sale</a>
+            </li>
+            <li class="menu-item"><a href="">New Release</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <i class="fas fa-bars hamburger"></i>
+      <div class="header-icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-user"></i>
+        <a href="../component/wishlist.html"><i class="far fa-bookmark wishlist-icon"></i></a>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </header>
+
+    <!--DRAWER-->
+    <div class="password-drawer" id="password-drawer">
+      <div class="account-header">
+        <span><h2>reset password</h2></span>
+        <span><i class="fas fa-times drawer-close-password fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <button class="login-btn">Reset Password</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link">Create an account</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="login-drawer" id="login-drawer">
+      <div class="account-header">
+        <span><h2>Login</h2></span>
+        <span><i class="fas fa-times drawer-close-login fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Login</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link-login"
+            >Create an account</a
+          >
+
+          <br />
+          <br />
+
+          Lost Password?
+          <a href="#password-drawer" class="forgot-password password-link"
+            >Reset your Password</a
+          >
+        </div>
+      </form>
+    </div>
+
+    <div class="account-drawer signup-drawer" id="signup-drawer">
+      <div class="account-header">
+        <span><h2>Signup</h2></span>
+        <span><i class="fas fa-times drawer-close-signup fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="firstname"
+            >Firstname <span class="asterick">*</span></label
+          >
+          <br />
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            class="firstname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="lastname">Lastname <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="lastname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Signup</button>
+
+        <div class="form-links">
+          Already have an account?
+          <a href="#login-drawer" class="login-link">Login here</a>
+        </div>
+      </form>
+    </div>
+
+    <h2 class="page-heading">Wishlist</h2>
+    <div class="product-card-container">
+      <div class="product">
+        <div class="product-img">
+          <img
+            src="https://i.pinimg.com/originals/88/4c/8f/884c8f522d647d49eb8f74fa80553c63.jpg"
+            alt="Naruto"
+            class="img"
+          />
+          <span class=""><i class="far fa-times-circle close fa-2x"></i></span>
+        </div>
+        <div class="card-body">
+          <div class="product-name-container">
+            <span class="product-name">Naruto</span>
+            <span class="rating">4.5/5 ⭐</span>
+          </div>
+          <div class="price-tag">₹ 700</div>
+
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img
+            src="https://i.pinimg.com/originals/b8/fe/bf/b8febff0c43955e480f34c2e8f2c58e7.jpg"
+            alt="One Piece"
+            class="img"
+          />
+          <span class=""><i class="far fa-times-circle close fa-2x"></i></span>
+
+        </div>
+        <div class="card-body">
+          <div class="product-name-container">
+            <span class="product-name">One Piece</span>
+            <span class="rating">4.5/5 ⭐</span>
+          </div>
+          <div class="price-tag">₹ 700</div>
+
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img
+            src="https://thefridacinema.org/wp-content/uploads/2020/02/Fruits-Basket.jpg"
+            alt="Fruits Basket"
+            class="img"
+          />
+          <span class=""><i class="far fa-times-circle close fa-2x"></i></span>
+
+        </div>
+        <div class="card-body">
+          <div class="product-name-container">
+            <span class="product-name">Fruits Basket</span>
+            <span class="rating">4.5/5 ⭐</span>
+          </div>
+          <div class="price-tag">₹ 700</div>
+
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img
+            src="https://s.ecrater.com/stores/409576/595b202d42443_409576b.jpg"
+            alt="Future Diary"
+            class="img"
+          />
+          <span class=""><i class="far fa-times-circle close fa-2x"></i></span>
+
+        </div>
+        <div class="card-body">
+          <div class="product-name-container">
+            <span class="product-name">Mirai Nikki</span>
+            <span class="rating">4.5/5 ⭐</span>
+          </div>
+          <div class="price-tag">₹ 700</div>
+
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img
+            src="https://readm.org/uploads/chapter_files/1637/89/p_00003.jpg"
+            alt="Death Note"
+            class="img"
+          />
+          <span class=""><i class="far fa-times-circle close fa-2x"></i></span>
+
+        </div>
+        <div class="card-body">
+          <div class="product-name-container">
+            <span class="product-name">Death Note</span>
+            <span class="rating">4.5/5 ⭐</span>
+          </div>
+          <div class="price-tag">₹ 700</div>
+
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
