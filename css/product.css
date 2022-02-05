@@ -153,13 +153,16 @@
 .filter-div {
   padding: 2rem 1rem;
   background-color: var(--font);
-  /* display: none; */
+  display: flex;
+  display: none;
   color: var(--primary);
   font-size: 1rem;
   letter-spacing: 2px;
   line-height: 1.5rem;
   font-family: "Roboto", sans-serif;
-  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
 }
 
 .filter-div div {
