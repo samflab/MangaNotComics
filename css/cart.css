@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-content: flex-start;
-  padding: 2rem 15rem 0rem 15rem;
+  padding: 2rem 10rem 0rem 10rem;
 }
 
 .cart-card {
@@ -11,7 +11,7 @@
   flex-direction: row;
   padding: 0.3rem 1rem;
   border: 3px solid var(--font);
-  width: 25rem;
+  width: 30rem;
   margin: 1rem;
   justify-content: flex-start;
   border-radius: 5px;
@@ -26,7 +26,7 @@
 .delete {
   color: var(--brown);
   position: absolute;
-  transform: translate(12.5rem, 0rem);
+  transform: translate(17rem, 0.5rem);
 }
 
 .cart-img {
@@ -125,7 +125,7 @@
   margin: 0.3rem 1rem;
   padding: 1rem;
   font-family: "Roboto", sans-serif;
-  width: 25rem;
+  width: 30rem;
   border-radius: 5px;
 }
 
