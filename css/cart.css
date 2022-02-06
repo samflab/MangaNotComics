@@ -1,0 +1,210 @@
+.add-to-cart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding: 2rem 15rem 0rem 15rem;
+}
+
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem 1rem;
+  border: 3px solid var(--font);
+  width: 25rem;
+  margin: 1rem;
+  justify-content: flex-start;
+  border-radius: 5px;
+}
+
+.cart-img-container {
+  height: 10%;
+  width: 10rem;
+  margin-right: 2rem;
+  position: relative;
+}
+.delete {
+  color: var(--brown);
+  position: absolute;
+  transform: translate(12.5rem, 0rem);
+}
+
+.cart-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.select-item {
+  position: absolute;
+  width: 2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  transform: translate(-10.7rem, 0rem);
+}
+
+.card-content-hrz {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card-title-hrz {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.card-seller-hrz {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0.3rem;
+  opacity: 0.8;
+}
+
+.quantity {
+  margin: 0.5rem 0rem;
+}
+
+.increase-quantity,
+.decrease-quantity {
+  padding: 0.1rem 0.5rem;
+  background-color: var(--font);
+  color: var(--primary);
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+
+.quantity-wt {
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  margin: 0rem 0.5rem;
+}
+.price {
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: var(--brown);
+}
+
+.delivery-date {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.arrival-date {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btn {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--font);
+  color: var(--primary);
+  font-size: 1rem;
+  border-radius: 5px;
+  font-family: "Ubuntu", sans-serif;
+  border: 0;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.wishlist-heading {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.address-card {
+  border: 1px solid var(--gray);
+  margin: 0.3rem 1rem;
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+  width: 25rem;
+  border-radius: 5px;
+}
+
+.item-selection{
+  margin: 1rem 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.addressee {
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.35rem;
+}
+
+.address-detail {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.change-address {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.checkout-summary {
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  margin-right: 2rem;
+  width: 20rem;
+  align-self: flex-start;
+}
+.checkout-summary hr {
+  background-color: var(--font);
+}
+.price-details-conatiner {
+  padding: 1rem;
+}
+
+.hd {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.mrp-tab {
+  margin-top: 1rem;
+}
+.mrp {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.mrp a {
+  color: var(--brown);
+}
+
+.coupon-btn {
+  margin: 0.5rem;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+.coupon-btn {
+  background-color: var(--primary);
+  color: var(--font);
+  border: 2px solid var(--font);
+}
+
+.checkout-btn {
+  margin-top: 1rem;
+  width: 100%;
+  align-self: flex-end;
+}

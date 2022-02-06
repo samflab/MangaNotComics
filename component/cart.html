@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="index.html" class="header-href">
+          <img src="../images/logo.png" alt="" class="header-img" />
+        </a>
+      </div>
+
+      <div class="header-nav">
+        <nav>
+          <ul class="header-menu">
+            <li class="menu-item"><a href="">Home</a></li>
+            <li class="menu-item">
+              <a href="">Products</a>
+            </li>
+            <li class="menu-item">
+              <a href="">Sale</a>
+            </li>
+            <li class="menu-item"><a href="">New Release</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <i class="fas fa-bars hamburger"></i>
+      <div class="header-icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-user"></i>
+        <a href="../component/wishlist.html"
+          ><i class="far fa-bookmark wishlist-icon"></i
+        ></a>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </header>
+    <h3 class="wishlist-heading">Bag ---- Address ---- Payment</h3>
+
+    <div class="add-to-cart-container">
+      <div>
+        <div class="address-card">
+          <h3>Deliver to:</h3>
+          <div class="addressee">Masudha Meher</div>
+          <div class="address-detail">
+            Flat No. xx, Sec-xx, Poc-x, Abcderfg Apartments, Dwarka, New
+            Delhi-1100xx
+          </div>
+          <button class="change-address btn">Change Address</button>
+        </div>
+        <div class="item-selection">
+          <span class="selection-amt">1</span> / <span class="total-amt">1</span> items selected
+        </div>
+        <div class="cart-card">
+          <div class="cart-img-container">
+            <img
+              src="https://i.pinimg.com/originals/5e/1c/5c/5e1c5c256630608d1de8f4c223bd1512.png"
+              alt=""
+              class="cart-img"
+            />
+            <i class="fas fa-trash-alt delete"></i>
+            <input
+              type="checkbox"
+              name="select-item"
+              class="select-item"
+              checked
+            />
+          </div>
+
+          <div class="card-content-hrz">
+            <h4 class="card-title-hrz">Bleach</h4>
+            <p class="card-seller-hrz">Jump Comics</p>
+
+            <div class="quantity">
+              <button class="increase-quantity">+</button>
+              <span class="quantity-wt">1</span>
+              <button class="decrease-quantity">-</button>
+            </div>
+
+            <div class="price">₹ 700</div>
+
+            <div class="delivery-date">Delivery by <span class="arrival-date">20th Feb 2022 </span></div>
+            <button class="wishlist-btn btn">Move to Wishlist</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkout-summary">
+        <div class="price-details-conatiner">
+          <div class="">
+            <div class="coupon-detail-title hd">Coupons</div>
+            <div class="coupon-status mrp">No apply coupons applied</div>
+            <button class="coupon-btn btn">apply coupons</button>
+          </div>
+          <hr/>
+          <div class="price-detail-title hd">
+            <span>Price Details <span>(1 item)</span></span>
+          </div>
+          <div class="mrp-tab">
+            <div class="total-mrp mrp">
+              <span>Total MRP</span> <span>₹ 700</span>
+            </div>
+
+            <div class="mrp">
+              <span>Discount on MRP</span> <span>--</span>
+            </div>
+
+            <div class="mrp">
+              <span>Coupon Discount</span> <a href="">Apply Coupon</a>
+            </div>
+            <hr/>
+            <div class="mrp">
+              <span>Total</span> <span>₹ 700</span>
+            </div>
+
+          </div>
+          <button class="checkout-btn btn">Checkout</button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>
