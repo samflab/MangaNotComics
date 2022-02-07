@@ -3,6 +3,7 @@
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url("../shared/reset.css");
 @import url("../shared/colors.css");
+@import url("../css/style.css");
 .page-heading {
   padding: 1.5rem;
   font-family: "Ubuntu", sans-serif;
@@ -30,7 +31,6 @@
 .product img {
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid black;
 }
 .product-img {
   height: 75%;
