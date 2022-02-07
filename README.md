@@ -47,9 +47,10 @@ On the [wishlist](https://manganotcomics.netlify.app/component/wishlist.html) pa
 
 ## Authentication
 The authentication pages can be accessed by clicking the user icon on the navbar. It contains:
- - [Login](https://manganotcomics.netlify.app/#login-drawer)
- - [Signup](https://manganotcomics.netlify.app/#signup-drawer)
- - [Reset Password](https://manganotcomics.netlify.app/#password-drawer)
+ - Login
+ - Signup
+ - Reset Password
+![Animation](https://user-images.githubusercontent.com/55777560/152851853-b4afb84b-9d40-4be6-9140-d3292ec91187.gif)
 
 ### Liked my work? Connect with me!
 <a href="https://www.linkedin.com/in/masudhameher/" target="_blank">
