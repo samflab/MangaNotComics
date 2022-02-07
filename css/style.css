@@ -421,7 +421,7 @@ label {
   }
 
   .trending {
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (max-width: 900px) {
@@ -455,7 +455,7 @@ label {
       "horror thriller";
   }
   .trending {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -481,6 +481,6 @@ label {
       "thriller";
   }
   .trending {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
   }
 }
