@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/wishlist.css" />
+    <title>Wishlist</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="index.html" class="header-href">
+          <img src="../images/logo.png" alt="" class="header-img" />
+        </a>
+      </div>
+
+      <div class="header-nav">
+        <nav>
+          <ul class="header-menu">
+            <li class="menu-item"><a href="">Home</a></li>
+            <li class="menu-item">
+              <a href="">Products</a>
+            </li>
+            <li class="menu-item">
+              <a href="">Sale</a>
+            </li>
+            <li class="menu-item"><a href="">New Release</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <i class="fas fa-bars hamburger"></i>
+      <div class="header-icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-user"></i>
+        <a href="../component/wishlist.html"
+          ><i class="far fa-bookmark wishlist-icon"></i
+        ></a>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </header>
+
+    <!--DRAWER-->
+    <div class="password-drawer" id="password-drawer">
+      <div class="account-header">
+        <span><h2>reset password</h2></span>
+        <span><i class="fas fa-times drawer-close-password fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <button class="login-btn">Reset Password</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link">Create an account</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="login-drawer" id="login-drawer">
+      <div class="account-header">
+        <span><h2>Login</h2></span>
+        <span><i class="fas fa-times drawer-close-login fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Login</button>
+
+        <div class="form-links">
+          Don't have an account?
+          <a href="#signup-drawer" class="signup-link-login"
+            >Create an account</a
+          >
+
+          <br />
+          <br />
+
+          Lost Password?
+          <a href="#password-drawer" class="forgot-password password-link"
+            >Reset your Password</a
+          >
+        </div>
+      </form>
+    </div>
+
+    <div class="account-drawer signup-drawer" id="signup-drawer">
+      <div class="account-header">
+        <span><h2>Signup</h2></span>
+        <span><i class="fas fa-times drawer-close-signup fa-2x"></i></span>
+      </div>
+      <hr />
+      <form action="" class="login-form">
+        <div>
+          <label for="firstname"
+            >Firstname <span class="asterick">*</span></label
+          >
+          <br />
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            class="firstname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="lastname">Lastname <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="lastname"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password <span class="asterick">*</span></label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+          />
+        </div>
+
+        <button class="login-btn">Signup</button>
+
+        <div class="form-links">
+          Already have an account?
+          <a href="#login-drawer" class="login-link">Login here</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="page-heading-center">
+      <h2>Empty Wishlist</h2>
+      <br />
+      <p class="wishlist-para">
+        Add items that you like to your wishlist. Review them anytime and easily
+        move them to the bag.
+      </p>
+
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/743/743131.png"
+        alt="shopping bag"
+        class="shopping-bag"
+      />
+
+      <button class="wishlist-btn">Lets Go Shopping</button>
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
