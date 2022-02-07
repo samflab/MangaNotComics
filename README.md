@@ -7,6 +7,7 @@
 
 # What is MangaNotComics?
 MangaNotComics or MNC is an idea for an e-commerce web app for mangas. It has the must have screens required in an e-commerce website. 
+Responsive? ✔
 
 # Features?
 1. [Home](#home)
