@@ -18,11 +18,15 @@ MangaNotComics or MNC is an idea for an e-commerce web app for mangas. It has th
 
 ## Home
 A [landing page](https://manganotcomics.netlify.app/) with a list of featured categories in a mansonry grid and a section for trending / top read mangas of the week.
+![image](https://user-images.githubusercontent.com/55777560/152849819-99960b92-43e2-41c9-915e-1e4d5754969d.png)
+
 
 ## Product Listing Page 
 A page full of [products](https://manganotcomics.netlify.app/component/product.html) along with a section for filters. You can see multiple filter options, filtering by price, categories and ratings.
 A dropdown menu to sort the product page according to "featured", "best selling" and "trending".
 The product cards have two buttons, one to bookmark (top-right) it and another to Add to Cart.
+![image](https://user-images.githubusercontent.com/55777560/152849887-ab6c7ab0-4ee5-48e4-8890-8f6629aa7033.png)
+
 
 ## Filters
 You can [filter](https://manganotcomics.netlify.app/component/product.html#filter) through various options:
@@ -34,6 +38,9 @@ You can [filter](https://manganotcomics.netlify.app/component/product.html#filte
 ## Cart Management
 On the [cart](https://manganotcomics.netlify.app/component/cart.html) page, you can add more quantity of the same products or remove the product altogether. You can also see a Add to Wishlist button. 
 There's also a section to change the address of the user. And a section with a price summary of the products present in the cart. You can see the Total MRP, discount (if any) and a button to apply for coupons.
+
+![image](https://user-images.githubusercontent.com/55777560/152849983-f4a38afe-745c-4970-b3d7-6db64206e4b4.png)
+
 
 ## Wishlist Management
 On the [wishlist](https://manganotcomics.netlify.app/component/wishlist.html) page, you can see the products bookmarked which can be removed from wishlist by clicking the "x" button. It also has button to Add to Cart. 
