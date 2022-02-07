@@ -65,3 +65,9 @@ The authentication pages can be accessed by clicking the user icon on the navbar
 <br/>
 <br/>
 
+Here's a screen-recording of MNC:
+
+
+https://user-images.githubusercontent.com/55777560/152851067-1977414b-5ef3-49ac-8f3a-3f057c60e7b7.mp4
+
+
