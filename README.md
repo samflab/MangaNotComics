@@ -14,7 +14,7 @@ MangaNotComics or MNC is an idea for an e-commerce web app for mangas. It has th
 3. [Filters](#filters)
 4. [Cart Management](#cart-management)
 5. [Wishlist Management](#wishlist-management)
-6. Authentication
+6. [Authentication](#authentication)
 
 ## Home
 A [landing page](https://manganotcomics.netlify.app/) with a list of featured categories in a mansonry grid and a section for trending / top read mangas of the week.
