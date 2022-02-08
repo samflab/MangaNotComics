@@ -44,7 +44,7 @@ There's also a section to change the address of the user. And a section with a p
 
 
 ## Wishlist Management
-On the [wishlist](https://manganotcomics.netlify.app/component/wishlist.html) page, you can see the products bookmarked which can be removed from wishlist by clicking the "x" button. It also has button to Add to Cart. 
+On the [wishlist](https://manganotcomics.netlify.app/component/wishlist.html) page, you can see the products bookmarked which can be removed from wishlist by clicking the "x" button. It also has button to Add to Cart. Here's a page for [empty wishlist](https://manganotcomics.netlify.app/component/wishlist-empty.html) page.
 
 ## Authentication
 The authentication pages can be accessed by clicking the user icon on the navbar. It contains:
