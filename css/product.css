@@ -1,8 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
-@import url("../shared/reset.css");
-@import url("../shared/colors.css");
 @import url("style.css");
 
 .product-list {
@@ -145,9 +140,10 @@
   padding: 0.5rem;
   position: absolute;
   z-index: 1;
-  transform: translate(-2.5rem, 0rem);
+  transform: translate(-2.1rem, 0rem);
   cursor: pointer;
   border-radius: 5px;
+  font-size: 1.5rem;
 }
 
 .filter-div {
@@ -162,7 +158,6 @@
   font-family: "Roboto", sans-serif;
   flex-wrap: wrap;
   gap: 1rem;
-  
 }
 
 .filter-div div {
@@ -193,13 +188,13 @@
 }
 
 @media screen and (max-width: 880px) {
-    .product-card-container{
-        grid-template-columns: 1fr 1fr;
-    }
+  .product-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .product-card-container{
-        grid-template-columns: 1fr;
-    }
+  .product-card-container {
+    grid-template-columns: 1fr;
+  }
 }

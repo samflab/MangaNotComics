@@ -1,0 +1,94 @@
+@import url("../shared/reset.css");
+@import url("../shared/colors.css");
+
+.login-drawer, .signup-drawer, .password-drawer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: var(--primary);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  
+  .account-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+    padding: 1rem 1rem 1rem 2rem;
+    text-transform: uppercase;
+  }
+  
+  .drawer-close {
+    margin-top: 0.3rem;
+  }
+  
+  .login-form {
+    padding: 2rem;
+  }
+  
+  .drawer-close {
+    margin-left: auto;
+  }
+  
+  .asterick {
+    color: red;
+  }
+  
+  label {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #464646;
+  }
+  .email,
+  .password, .firstname, .lastname {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--black-200);
+  }
+  
+  .auth-btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    width: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: var(--font);
+    border: 0;
+    color: var(--primary);
+    border-radius: 5px;
+  }
+  
+  .form-links {
+    color: var(--font);
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+  }
+  .signup-link, .login-link, .forgot-password, .signup-link-login {
+    color: var(--font);
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .header-nav,
+    .header-icons {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      color: var(--primary);
+    }
+  }
+  

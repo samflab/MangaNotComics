@@ -1,9 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
-@import url("../shared/reset.css");
-@import url("../shared/colors.css");
-@import url("../css/style.css");
+@import url("style.css");
+
 .add-to-cart-container {
   display: flex;
   flex-direction: row;
@@ -135,7 +131,7 @@
   border-radius: 5px;
 }
 
-.item-selection{
+.item-selection {
   margin: 1rem 1.2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;

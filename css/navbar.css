@@ -1,0 +1,58 @@
+@import url("../shared/reset.css");
+@import url("../shared/colors.css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: var(--font);
+}
+
+.header-logo {
+  margin-left: 1.5rem;
+}
+
+.header-img {
+  margin: 0.39rem 0rem;
+  height: 3rem;
+  width: 3rem;
+  filter: invert(100%);
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-menu {
+  padding: 1.4rem;
+}
+.menu-item {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0rem 0.7rem;
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.header-icons {
+  padding: 1.43rem;
+  color: var(--primary);
+}
+
+i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
