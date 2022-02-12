@@ -1,49 +1,53 @@
 @import url("../shared/reset.css");
 @import url("../shared/colors.css");
 
-.header {
+.header-3pt {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
   background-color: var(--font);
+
 }
 
-.header-logo {
+.header-logo-3pt {
   margin-left: 1.5rem;
 }
 
-.header-img {
+.header-img-3pt {
   margin: 0.39rem 0rem;
   height: 3rem;
   width: 3rem;
   filter: invert(100%);
 }
 
-.header-nav {
+.header-nav-3pt {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 2rem;
 }
 
-.header-menu {
+.header-menu-3pt {
   padding: 1.4rem;
 }
-.menu-item {
+.menu-item-3pt {
   display: inline-block;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   margin: 0rem 0.7rem;
   color: var(--primary);
+
 }
 
 a {
   text-decoration: none;
   color: var(--primary);
+  font-family: "Roboto", sans-serif;
+
 }
 
-.header-icons {
+.header-icons-3pt {
   padding: 1.43rem;
   color: var(--primary);
 }
@@ -53,6 +57,21 @@ i {
   cursor: pointer;
 }
 
-.hamburger {
+.hamburger-3pt {
   display: none;
+}
+
+.icon-link-3pt{
+  color: var(--primary);
+}
+
+@media screen and (max-width: 750px){
+  .header-nav-3pt, .header-icons-3pt{
+    display: none;
+  }
+
+  .hamburger-3pt{
+    display: inline-flex;
+    color: var(--primary);
+  }
 }
