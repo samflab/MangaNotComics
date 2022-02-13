@@ -1,5 +1,16 @@
 @import url("style.css");
-
+h3,
+.addressee,
+.address-detail,
+.item-selection,
+h4,
+p,
+.delivery-date,
+.arrival-date,
+.hd, .mrp, span{
+  color: var(--black);
+  font-family: "Roboto", sans-serif;
+}
 .add-to-cart-container {
   display: flex;
   flex-direction: row;
@@ -12,7 +23,7 @@
   display: flex;
   flex-direction: row;
   padding: 0.3rem 1rem;
-  border: 3px solid var(--font);
+  border: 3px solid var(--black);
   width: 30rem;
   margin: 1rem;
   justify-content: flex-start;
@@ -71,7 +82,7 @@
 .increase-quantity,
 .decrease-quantity {
   padding: 0.1rem 0.5rem;
-  background-color: var(--font);
+  background-color: var(--black);
   color: var(--primary);
   border-radius: 5px;
   border: 0;
@@ -105,7 +116,7 @@
 }
 .btn {
   padding: 0.5rem 0.5rem;
-  background-color: var(--font);
+  background-color: var(--black);
   color: var(--primary);
   font-size: 1rem;
   border-radius: 5px;
@@ -163,7 +174,7 @@
   align-self: flex-start;
 }
 .checkout-summary hr {
-  background-color: var(--font);
+  background-color: var(--black);
 }
 .price-details-conatiner {
   padding: 1rem;
@@ -201,8 +212,8 @@ hr {
 
 .outline-btn {
   background-color: var(--primary);
-  color: var(--font);
-  border: 2px solid var(--font);
+  color: var(--black);
+  border: 2px solid var(--black);
 }
 
 .checkout-btn {
