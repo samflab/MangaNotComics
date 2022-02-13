@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
+    <link rel="stylesheet" href="https://azure-ui.netlify.app/main.css" />
     <link rel="stylesheet" href="../css/product.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-logo">
-        <a href="index.html" class="header-href">
-          <img src="../images/logo.png" alt="" class="header-img" />
+    <header class="header-3pt">
+      <div class="header-logo-3pt">
+        <a href="../index.html" class="header-href-3pt">
+          <img src="../images/logo.png" alt="logo" class="header-img-3pt" />
         </a>
       </div>
 
-      <div class="header-nav">
+      <div class="header-nav-3pt">
         <nav>
-          <ul class="header-menu">
-            <li class="menu-item"><a href="">Home</a></li>
-            <li class="menu-item">
-              <a href="">Products</a>
+          <ul class="header-menu-3pt">
+            <li class="menu-item-3pt"><a href="../index.html">Home</a></li>
+            <li class="menu-item-3pt">
+              <a href="product.html">Products</a>
             </li>
-            <li class="menu-item">
-              <a href="">Sale</a>
+            <li class="menu-item-3pt">
+              <a href="product.html">Sale</a>
             </li>
-            <li class="menu-item"><a href="">New Release</a></li>
           </ul>
         </nav>
       </div>
 
-      <i class="fas fa-bars hamburger"></i>
-      <div class="header-icons">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-user"></i>
-        <i class="far fa-heart"></i>
-        <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-bars hamburger-3pt"></i>
+      <div class="header-icons-3pt">
+        <a href="">
+          <i class="fas fa-search icon-link-3pt"></i>
+        </a>
+        <i class="fas fa-user icon-link-3pt"></i>
+        <a href="wishlist.html">
+          <i class="far fa-bookmark icon-link-3pt"></i>
+        </a>
+        <a href="cart.html">
+          <i class="fas fa-shopping-cart icon-link-3pt"></i>
+        </a>
       </div>
     </header>
 
@@ -221,9 +227,10 @@
         <br />
         <div>
           <h3 class="filter-heading"><u>Price Range</u></h3>
-          200
+          <span class="min-price">200</span>
+
           <input type="range" min="200" max="2000" id="range" class="slider" />
-          2000
+          <span class="max-price">2000</span>
         </div>
         <div>
           <h3><u>Rating</u></h3>
