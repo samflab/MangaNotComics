@@ -199,65 +199,13 @@
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   font-weight: 800;
+  color: var(--black);
 }
 
 .trending-sub {
   font-style: italic;
 }
 
-/* .product {
-  height: 100%;
-  width: 90%;
-  border: 3px solid var(--font);
-  cursor: pointer;
-}
-
-.product-img{
-  height: 80%;
-  width: 100%;
-  border-bottom: 3px solid black;
-}
-
-.card-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 5.6rem;
-}
-
-.product-name {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.price-tag {
-  font-family: "Ubuntu", sans-serif;
-  color: #464646;
-  font-weight: 600;
-}
-
-.add-to-cart {
-  padding: 2rem 1rem;
-  width: 100%;
-  background-color: var(--font);
-  border: 0;
-  font-size: 1rem;
-  color: var(--primary);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 0.3rem;
-}
-
-.fa-bookmark {
-  margin-left: auto;
-  font-size: 1.5rem;
-} */
 
 @media screen and (max-width: 1150px) {
   .hero-content {
