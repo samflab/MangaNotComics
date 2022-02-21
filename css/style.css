@@ -97,7 +97,7 @@
   padding: 1.5rem;
   text-align: center;
 }
-.grid-1 {
+.grid-one {
   grid-area: romance;
   width: 100%;
   height: 100%;
@@ -118,20 +118,31 @@
   position: relative;
   z-index: 0;
 }
-.grid-1:hover .overlay-x {
+.grid-one:hover .overlay-xy {
   opacity: 1;
   z-index: 2;
 }
 
-.overlay-x {
+.overlay-xy {
   opacity: 1;
   z-index: 1;
   background-color: var(--primary);
   position: absolute;
-  transform: translate(1.5rem, -5rem);
   border-radius: 5px;
 }
-.overlay-text {
+
+.xy-lg{
+  transform: translate(1rem, 30rem);
+}
+
+.xy-md{
+  transform: translate(1rem, 14rem);
+}
+
+.xy-sm{
+  transform: translate(1rem, 10rem);
+}
+.overlay-text-x {
   padding: 0.5rem 1.5rem;
   font-size: 1.1rem;
   border: 2px solid var(--font);
@@ -144,25 +155,25 @@
   border-radius: 5px;
 }
 
-.grid-2 {
+.grid-two {
   grid-area: fantasy;
   width: 100%;
   height: 100%;
 }
 
-.grid-3 {
+.grid-three {
   grid-area: adventure;
 }
 
-.grid-4 {
+.grid-four {
   grid-area: horror;
 }
 
-.grid-5 {
+.grid-five {
   grid-area: life;
 }
 
-.grid-6 {
+.grid-six {
   grid-area: thriller;
 }
 
